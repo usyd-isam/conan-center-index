@@ -1390,7 +1390,7 @@ class OpenCVConan(ConanFile):
         tc.variables["OPENCV_FORCE_3RDPARTY_BUILD"] = False
         tc.variables["OPENCV_PYTHON_SKIP_DETECTION"] = True
         tc.variables["BUILD_opencv_python2"] = False
-        tc.variables["BUILD_opencv_python3"] = False
+        tc.variables["BUILD_opencv_python3"] = True
         tc.variables["BUILD_opencv_python_bindings_g"] = False
         tc.variables["BUILD_opencv_python_tests"] = False
         tc.variables["BUILD_opencv_ts"] = False
